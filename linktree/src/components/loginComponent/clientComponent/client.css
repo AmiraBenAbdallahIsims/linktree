@@ -1,0 +1,156 @@
+.c-form-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.c-input {
+    background-color: rgb(246 247 245);
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+
+}
+
+.c-input:focus{
+    border: none;
+    outline:none;
+}
+
+.c-create-button {
+    width: 72%;
+    border-radius: 30px;
+    background-color: #8028d8;
+    color: white;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.gender {
+    margin-top: 20px;
+    width: 71% !important;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.gender-list {
+    display: flex;
+    width: 71%;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.gender-list div:nth-child(1) {
+    margin-right: 30px;
+}
+
+.gender-list div {
+    display: flex;
+    justify-content: center;
+}
+
+.gender-list input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    margin: 0px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.gender-list input[type="radio"]:checked {
+    border: 2px solid #8028d8;
+    /* Outer border color when checked */
+}
+
+.gender-list input[type="radio"]:checked::before {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #8028d8;
+    /* Inner circle color when checked */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.file-section {
+    width: 71%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.file-section label {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+
+/**/
+
+.custom-file-input {
+    display: flex;
+    align-items: center;
+}
+
+.custom-file-input input[type="file"] {
+    display: none;
+    /* Hide the default file input */
+}
+
+.custom-file-input button {
+    background-color: rgb(224, 224, 224);
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.c-input.error {
+    border : 1px solid red;
+  }
+  
+  .c-input.valid {
+    border : 1px solid green;
+  }
+  
+
+  .error-message{
+    color:red !important;
+    margin-top:7px;
+  }
+
+  .loading-img{
+    height:30px;
+    width:30px;
+  }

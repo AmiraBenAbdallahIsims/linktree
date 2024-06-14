@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 50px; /* Adjust this value to position it vertically */
+    left: 50%;
+    transform: translateX(-50%);
+    position:fixed;
+  }
+  
+  .navbar-logo a {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1em;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-button, .signup-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+
+  }
+  
+  .login-button {
+    background-color: #f0f0f0;
+    color: black !important;
+  }
+  
+  .signup-button {
+    background-color: black;
+    color: white;
+  }
+  .navbar{
+    margin-top: 20px;
+   
+  }

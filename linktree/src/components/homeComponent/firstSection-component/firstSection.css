@@ -1,0 +1,55 @@
+.first-section{
+    background-color:#254f1a;
+    height:100vh;
+    padding-top: 240px;
+    padding-left: 87px;
+    padding-right: 87px;
+
+}
+h1{
+    font-size: 85px;
+    
+    color:rgb(210, 232, 35);
+}
+p{
+    
+    color:rgb(210, 232, 35);
+    font-size: 20px;
+}
+.f-s-l-s{
+    width: 50%;
+}
+.f-s-r-s{
+    width: 50%;
+}
+.f-s-l-s button{
+    background-color: rgb(233, 192, 233);
+    color: white;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 30px;
+    border:none;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    
+}
+.f-s-l-s input
+{
+   border: none; 
+   background-color:transparent;
+
+}
+.f-s-l-s input:focus{
+    outline:none;
+    border:none;
+}
+.divf
+{
+    display:flex;
+    background-color: aliceblue;
+    width:fit-content;
+    padding:15px;
+    border-radius: 15px;;
+}
+
